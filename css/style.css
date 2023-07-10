@@ -20,7 +20,7 @@ img{
 /* ===== common style ends ===== */
 /* ===== banner style starts ===== */
 #banner{
-  background: rgba(229, 84, 115, 0.1);
+  background: #e554731a;
   padding-top: 50px;
 }
 .banner-contents{
@@ -41,7 +41,7 @@ img{
   margin-bottom: 20px;
 }
 .banner-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -87,7 +87,7 @@ span{
   margin-bottom: 20px;
 }
 .featured-title-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -116,14 +116,14 @@ span{
   border-radius: 200px 200px 0 0;
 }
 .featured-item-1{
-  background: rgba(167, 33, 98, 0.15);
+  background: #a7216226;
 }
 .featured-item-2{
-  background: rgba(5, 151, 160, 0.15);
+  background: #0597a026;
   align-items: center;
 }
 .featured-item-3{
-  background: rgba(71, 125, 17, 0.15);
+  background: #477d1126;
 }
 .featured-item-image{
   width: 80%;
@@ -151,7 +151,7 @@ span{
 .support-contents{
   width: 1140px;
   margin: 0 auto;
-  background: rgba(39, 39, 39, 0.05);
+  background: #2727270d;
   display: flex;
   justify-content: space-around;
   padding: 60px 100px;
@@ -159,9 +159,10 @@ span{
 }
 .support-content{
   text-align: center;
+  cursor: pointer;
 }
 .support-caption{
-  color: rgba(39, 39, 39, 0.80);
+  color: #272727cc;
   font-size: 14px;
   font-weight: 600;
   margin-top: 20px;
@@ -169,7 +170,7 @@ span{
 /* ===== support style ends ===== */
 /* ===== deal style starts ===== */
 #deal{
-  background: rgba(229, 84, 115, 0.05);
+  background: #e554730d;
   padding: 100px 0;
   margin-bottom: 100px;
 }
@@ -188,7 +189,7 @@ span{
   margin-bottom: 20px;
 }
 .deal-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-family: Lato;
   font-size: 14px;
   font-weight: 400;
@@ -210,7 +211,7 @@ span{
   margin-bottom: 20px;
 }
 .gallery-title-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -237,7 +238,7 @@ span{
 /* ===== gallery style ends ===== */
 /* ===== occations style starts ===== */
 #occations{
-  background: rgba(229, 84, 115, 0.05);
+  background: #e554730d;
   padding: 50px 0;
   margin-bottom: 100px;
 }
@@ -251,7 +252,7 @@ span{
   margin-bottom: 20px;
 }
 .occations-title-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -285,7 +286,7 @@ span{
   text-transform: capitalize;
 }
 .occations-content-text-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -306,7 +307,10 @@ span{
 .subscribe-contents{
   width: 1140px;
   margin: 0 auto;
-  background: url("../images/rectangle-9.png") no-repeat top / cover;
+  background: url("../images/rectangle-9.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
   text-align: center;
   padding: 100px 0;
   border-radius: 5px;
@@ -318,7 +322,7 @@ span{
   margin-bottom: 10px;
 }
 .subscribe-title-para{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -341,7 +345,7 @@ span{
   width: 45%;
 }
 .subscribe-title input::placeholder{
-  color: rgba(39, 39, 39, 0.60);
+  color: #27272799;
   font-size: 14px;
   font-weight: 400;
 }
@@ -349,7 +353,7 @@ span{
 /* ===== footer style starts ===== */
 #footer{
   background: #111010;
-  padding: 100px 0;
+  padding: 120px 0;
   text-align: center;
 }
 .footer-content-heading{
@@ -359,7 +363,7 @@ span{
   margin-bottom: 20px;
 }
 .footer-content-para{
-  color: rgba(255, 255, 255, 0.90);
+  color: #ffffffe6;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -367,6 +371,6 @@ span{
   padding: 0 520px;
 }
 .footer-content-copyright{
-  color: rgba(255, 255, 255, 0.40);
+  color: #ffffff66;
 }
 /* ===== footer style ends ===== */
