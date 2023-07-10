@@ -1,0 +1,19 @@
+/* ===== fonts link starts===== */
+
+/* ===== fonts link ends===== */
+/* ===== common style starts ===== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+/* ===== common style ends ===== */
