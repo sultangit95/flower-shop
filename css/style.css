@@ -287,3 +287,50 @@ img{
   width: 100%;
 }
 /* ===== occations style ends ===== */
+/* ===== subscribe style starts ===== */
+#subscribe{
+  margin-bottom: 100px;
+}
+.subscribe-contents{
+  width: 1140px;
+  margin: 0 auto;
+  background: url("../images/rectangle-9.png") no-repeat top / cover;
+  text-align: center;
+  padding: 100px 0;
+  border-radius: 5px;
+}
+.subscribe-title-heading{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.subscribe-title-para{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.subscribe-title form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.subscribe-title input{
+  background: #ffffff;
+  color: #272727;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  width: 45%;
+}
+.subscribe-title input::placeholder{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ===== subscribe style ends ===== */
