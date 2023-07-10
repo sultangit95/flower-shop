@@ -226,7 +226,7 @@ span{
   gap: 20px;
 }
 .gallery-content{
-  transition: .2s;
+  transition: 0.2s;
 }
 .gallery-content:hover{
   box-shadow: 0 0 5px #757575;
@@ -284,6 +284,11 @@ span{
   font-weight: 800;
   margin-bottom: 10px;
   text-transform: capitalize;
+  transition: 0.3s;
+}
+.occations-content-text-heading a:hover{
+  margin-left: 5px;
+  color: #E55473;
 }
 .occations-content-text-para{
   color: #27272799;
