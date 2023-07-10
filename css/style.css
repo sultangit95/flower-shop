@@ -185,3 +185,42 @@ img{
   margin-bottom: 30px;
 }
 /* ===== deal style ends ===== */
+/* ===== gallery style ends ===== */
+#gallery{
+  margin-bottom: 100px;
+}
+.gallery-title{
+  text-align: center;
+}
+.gallery-title-heading{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.gallery-title-para{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 0 520px;
+  margin-bottom: 40px;
+}
+.gallery-contents{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.gallery-content{
+  transition: .2s;
+}
+.gallery-content:hover{
+  box-shadow: 0 0 5px #757575;
+  cursor: pointer;
+}
+.gallery-content img{
+  width: 100%;
+}
+/* ===== gallery style ends ===== */
