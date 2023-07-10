@@ -130,3 +130,26 @@ img{
   margin-top: 10px;
 }
 /* ===== featured style ends ===== */
+/* ===== support style starts ===== */
+#support{
+  margin-bottom: 100px;
+}
+.support-contents{
+  width: 1140px;
+  margin: 0 auto;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 100px;
+  border-radius: 5px;
+}
+.support-content{
+  text-align: center;
+}
+.support-caption{
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+/* ===== support style ends ===== */
